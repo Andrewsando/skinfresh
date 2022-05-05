@@ -1,0 +1,384 @@
+body {
+    display: grid;
+    grid: 'header'
+        'main'
+        'main'
+        'main'
+        'main'
+        'main'
+        'main'
+        'main'
+        'main'
+        'main'
+        'main'
+        'main'
+        'footer';
+    margin: 0;
+}
+
+body header {
+    grid-area: header;
+}
+
+body footer {
+    grid-area: footer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.barranav {
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+    background-color: #0B0719;
+}
+
+li {
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 18px;
+    padding: 14px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li>a {
+    text-decoration: none;
+    color: white;
+}
+
+#imagen__inicio {
+    position: relative;
+}
+
+.tprincipal {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    right: 25vw;
+    font-size: 60px;
+}
+
+.imgprin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.tprincipal1 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 30px;
+    right: 280px;
+    text-align: center;
+}
+
+.text__gris {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #738b8a;
+    font-size: 30px;
+    left: 100px;
+    margin: 60px;
+    padding: 5rem;
+    text-align: center;
+}
+
+.principal2 {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #738b8a;
+    font-size: 25px;
+    padding: 2rem;
+}
+
+.caja {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    color: #ffffff;
+}
+
+.caja p {
+    padding: 3em 0.5em;
+}
+
+.bglight {
+    background: #babd8f;
+}
+
+.bgdark {
+    background: #0B0719;
+}
+
+.Img__2 {
+    left: 0;
+
+}
+
+.caja img {
+    max-width: 400px;
+
+}
+
+.caja.caja__inverse {
+    flex-direction: row-reverse;
+}
+
+
+.h1 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #071918;
+    font-size: 60px;
+}
+
+.h2,
+h3 {
+    text-align: center;
+}
+
+.subtitle {
+    font-family: 'Merriweather', serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 70px;
+    color: #B07A6E;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cris img {
+    width: 350px;
+    height: 250px;
+    margin: 1em;
+    object-fit: cover;
+}
+
+.cris {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.boton__fb {
+    background-color: blue;
+    color: azure;
+    position: fixed;
+    display: block;
+    object-fit: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem 1rem;
+    bottom: 0;
+    right: 10px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+.boton__ws {
+    background-color: green;
+    color: azure;
+    position: fixed;
+    display: block;
+    object-fit: cover;
+    font-family: helvetica;
+    padding: 1rem 1rem;
+    bottom: 0;
+    right: 10rem;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+.foot {
+    text-align: center;
+    background-color: #0B0719;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.foot__form {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e7e1a8;
+    margin-left: 0;
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 50%;
+
+}
+
+.formulario input,
+label {
+    margin: 0.8rem;
+}
+
+.foot__end {
+    height: 200px;
+    margin-top: 70px;
+    text-align: right;
+    padding: 0;
+    text-align: center;
+    min-width: 50vw;
+    font-size: 1.5em;
+
+}
+
+.foot a {
+    text-decoration: none;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px 2rem;
+    gap: 30px 10px;
+   
+}
+
+.grid-container img {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    text-align: center;
+    gap: 10px 10px;
+    width: 25vw;
+    height: 25vw;
+    margin: auto;
+    object-fit: cover;
+}
+
+.compra {
+    text-align: center;
+    text-justify: inter-word;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #738b8a;
+    font-size: 50px;
+
+}
+
+.formulario {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    .body {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .barranav {
+        display: inline-block;
+        width: fit-content;
+    }
+
+    .li {
+        padding: 2rem 0;
+        width: 2vw;
+        margin: 0;
+    }
+
+    .tprincipal {
+        color: #071918;
+        font-size: 2.5rem;
+        margin-left: 2rem;
+    }
+
+    .imgprin {
+        height: 40vh;
+        width: 90vw;
+        padding: 2rem 0rem;
+        object-fit: cover;
+    }
+
+    .text__gris {
+        font-size: 1rem;
+        text-align: center;
+        padding: 2rem 0;
+        margin: 0;
+        margin-left: 2 rem;
+    }
+
+    .caja {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        font-size: 1rem;
+        margin-top: 0;
+    }
+
+    .caja img {
+        height: 30vh;
+        width: 25vh;
+        margin: 0 auto;
+        transform: translate(0, 20%);
+        object-fit: cover;
+    }
+
+    .bgdark {
+        font-size: 1 rem;
+    }
+
+
+    .foot div {
+        width: 100%;
+        padding: 2rem 0;
+        font-size: 1rem;
+    }
+
+    .foot {
+        flex-direction: column;
+    }
+
+    .caja.caja__inverse {
+        flex-direction: column-reverse;
+    }
+
+    .botones {
+        width: 4rem;
+        font-size: 0.8rem;
+    }
+
+    .principal2 {
+        font-size: 1rem;
+    
+    }
+
+    .cris img {
+        width: 25vw;
+        height: 20vh;
+        margin: 0.5rem;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+        padding: 0 1rem;
+    }
+
+    .compra {
+        font-size: 1rem;
+
+    }
+}
