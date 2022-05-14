@@ -1,0 +1,109 @@
+
+    @media screen and (max-width: 600px) {
+
+        .body {
+            width: 100vw;
+            margin: 0;
+        }
+
+        .barranav {
+            display: inline-block;
+            width: fit-content;
+        }
+
+        .li {
+            padding: 2rem 0;
+            width: 2vw;
+            margin: 0;
+        }
+
+        .tprincipal {
+            color: #071918;
+            font-size: 2.5rem;
+            margin-left: 2rem;
+        }
+
+        .imgprin {
+            height: 40vh;
+            width: 90vw;
+            padding: 2rem 0rem;
+            object-fit: cover;
+        }
+
+        .text__gris {
+            font-size: 1rem;
+            text-align: center;
+            padding: 2rem 0;
+            margin: 0;
+            margin-left: 2 rem;
+        }
+
+        .caja {
+            flex-direction: column;
+            flex-direction: column-reverse;
+            font-size: 1rem;
+            margin-top: 0;
+        }
+
+        .caja img {
+            height: 30vh;
+            width: 25vh;
+            margin: 0 auto;
+            transform: translate(0, 20%);
+            object-fit: cover;
+        }
+
+        .bgdark {
+            font-size: 1 rem;
+        }
+
+
+        .foot div {
+            width: 100%;
+            padding: 0rem 0;
+            font-size: 1rem;
+        }
+
+        .foot {
+            flex-direction: column;
+        }
+
+        .caja.caja__inverse {
+            flex-direction: column-reverse;
+        }
+
+        .botones a{
+            width: 4rem;
+            font-size: 18px;
+        }
+
+        .principal2 {
+            font-size: 1rem;
+            padding: 1rem;
+        }
+
+        .cris img {
+            width: 25vw;
+            height: 20vh;
+            margin: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 2rem;
+            padding: 0 1rem;
+        }
+
+        .compra {
+            font-size: 1rem;
+        }
+        .mb-2 {
+            
+            margin:0;
+            padding: 0;
+        }
+        
+        .subtitle{
+            font-size: 1.3rem;
+        }
+
+    }

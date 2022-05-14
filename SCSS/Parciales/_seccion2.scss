@@ -1,0 +1,101 @@
+
+.tprincipal1 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 30px;
+    right: 280px;
+    text-align: center;
+}
+
+.text__gris {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #738b8a;
+    font-size: 30px;
+    left: 100px;
+    margin: 60px;
+    padding: 5rem;
+    text-align: center;
+}
+
+.principal2 {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: $color-textos;
+    font-size: 18px;
+    padding: 2rem 8rem;
+}
+
+.caja {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    color: #ffffff;
+}
+
+.caja p {
+    padding: 3em 0.5em;
+}
+
+.bglight {
+    background: #babd8f;
+}
+
+.bgdark {
+    background: #212529;
+}
+
+.Img__2 {
+    left: 0;
+
+}
+
+.caja img {
+    max-width: 400px;
+
+}
+
+.caja.caja__inverse {
+    flex-direction: row-reverse;
+}
+
+
+.h1 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #071918;
+    font-size: 60px;
+}
+
+.h2,
+h3 {
+    text-align: center;
+}
+
+.subtitle {
+    font-family: 'Merriweather', serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 70px;
+    color: $color-principales;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cris img {
+    width: 350px;
+    height: 250px;
+    margin: 1em;
+    object-fit: cover;
+}
+
+.cris {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}

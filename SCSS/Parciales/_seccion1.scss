@@ -1,0 +1,39 @@
+.navbartitle{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+
+nav{
+    font-size: 18px;
+
+  
+}
+body footer {
+    grid-area: footer;
+}
+
+#imagen__inicio {
+    position: relative;
+}
+
+.tprincipal {
+    font-family: 'Merriweather', serif;
+    color: $color-textos-titulo;
+    font-weight: bolder;
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    right: 25vw;
+    font-size: 60px;
+}
+
+.imgprin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    width: 50%;
+}
