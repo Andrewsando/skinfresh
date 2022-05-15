@@ -19,15 +19,15 @@
 
         .tprincipal {
             color: #071918;
-            font-size: 2.5rem;
+            font-size: 25px;
             margin-left: 2rem;
         }
-
         .imgprin {
             height: 40vh;
             width: 90vw;
             padding: 2rem 0rem;
             object-fit: cover;
+            border-radius: 18%;
         }
 
         .text__gris {
@@ -46,15 +46,19 @@
         }
 
         .caja img {
-            height: 30vh;
-            width: 25vh;
+           
+            width: 43vh;
             margin: 0 auto;
-            transform: translate(0, 20%);
             object-fit: cover;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
         }
 
         .bgdark {
             font-size: 1 rem;
+        }
+        .bglight{
+            margin: 0;
         }
 
 
@@ -77,9 +81,10 @@
             font-size: 18px;
         }
 
-        .principal2 {
+        .text__gris__negrilla { 
             font-size: 1rem;
-            padding: 1rem;
+            padding: 3rem;
+            margin: 0;
         }
 
         .cris img {
@@ -88,10 +93,7 @@
             margin: 0.5rem;
         }
 
-        .subtitle {
-            font-size: 2rem;
-            padding: 0 1rem;
-        }
+      
 
         .compra {
             font-size: 1rem;
@@ -103,7 +105,11 @@
         }
         
         .subtitle{
-            font-size: 1.3rem;
+            font-size: 25px;
+        }
+        .parrafo-gris{
+            padding: 2rem 1rem;
+            font-size: 12px;
         }
 
     }

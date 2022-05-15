@@ -1,3 +1,4 @@
+/* Footer */
 .foot {
     text-align: center;
     background-color: #212529;
@@ -17,68 +18,36 @@
     font-size: 18px;
     width: 40%;
     padding: 1rem;
+}
 
-}
 .mb-2 {
-   margin-left: 5rem;
-   margin-right: 5rem;
-   margin-top: 0rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 0rem;
 }
-.cc{
+
+.Boton_submit {
     width: 10rem;
     background-color: #212529;
     color: white;
     margin-bottom: 2rem;
     margin-top: 3rem;
-   
-}
-.formulario input,
-label {
-    margin: 0.8rem;
 }
 
 .foot__end {
-    margin-top: 4rem; 
+    margin-top: 4rem;
     text-align: center;
     min-width: 50vw;
     font-size: 18px;
     height: fit-content;
     margin-left: 0;
-
 }
 
 .foot a {
     text-decoration: none;
     color: white;
 }
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 4rem 2em;
-    gap: 30px 10px;
-
-}
-
-.grid-container img {
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 30px;
-    text-align: center;
-    gap: 10px 10px;
-    width: 25vw;
-    height: 25vw;
-    margin: auto;
-    object-fit: cover;
-}
-
-.compra {
-    text-align: center;
-    text-justify: inter-word;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #738b8a;
-    font-size: 50px;
-
-}
-.formulario {
-    text-align: center;
+.form-control{
+        width: 70%;
+        margin: auto;
 }

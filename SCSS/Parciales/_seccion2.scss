@@ -1,7 +1,7 @@
 
 .tprincipal1 {
     font-family: 'Merriweather', serif;
-    color: white;
+    color: $color-textos-titulo;
     font-size: 60px;
     font-weight: bolder;
     position: absolute;
@@ -12,7 +12,7 @@
 
 .text__gris {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #738b8a;
+    color: $color-textos;
     font-size: 30px;
     left: 100px;
     margin: 60px;
@@ -35,7 +35,7 @@
     font-weight: 400;
     text-align: center;
     display: flex;
-    color: #ffffff;
+    color: $color-textos-titulo;
 }
 
 .caja p {
@@ -81,11 +81,12 @@ h3 {
     font-family: 'Merriweather', serif;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 70px;
-    color: $color-principales;
+    color: $color-subtitulos;
     text-align: center;
     margin-top: 2rem;
 }
 
+/* Imagenes grid */
 .cris img {
     width: 350px;
     height: 250px;
