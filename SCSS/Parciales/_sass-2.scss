@@ -1,0 +1,39 @@
+// redes
+$redes: (
+    whatsapp: #1de272,
+    facebook: #2b2839
+
+    );
+
+@each $clave, $valor in $redes {
+    .boton-#{$clave} {
+        background-color: $valor;
+
+    }
+}
+// extend
+.cris img {
+    @extend .imgprin;
+    width: 350px;
+    height: 250px;
+    margin: 1em;
+    object-fit: cover;
+}
+
+// mixin
+@mixin parrafosBlancos ($font-size, $color) {
+    
+    font-size: $font-size;
+    color: $color;
+}
+
+.caja{
+    @include parrafosBlancos ( 30px, white );
+}
+.form-text{
+    @include parrafosBlancos ( 25px, white );
+}
+
+.h4 {
+    @include parrafosBlancos ( 30px, white );
+}

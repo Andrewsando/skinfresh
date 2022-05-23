@@ -26,6 +26,7 @@ body header {
   height: 25vw;
   margin: auto;
   object-fit: cover;
+  border-radius: 5%;
 }
 
 .compra {
@@ -34,6 +35,36 @@ body header {
   font-family: 'Source Sans Pro', sans-serif;
   color: #738b8a;
   font-size: 50px;
+}
+
+.boton-whatsapp {
+  background-color: #1de272;
+}
+
+.boton-facebook {
+  background-color: #2b2839;
+}
+
+.cris img {
+  width: 350px;
+  height: 250px;
+  margin: 1em;
+  object-fit: cover;
+}
+
+.caja {
+  font-size: 30px;
+  color: white;
+}
+
+.form-text {
+  font-size: 25px;
+  color: white;
+}
+
+.h4 {
+  font-size: 30px;
+  color: white;
 }
 
 /* Barra de navegación */
@@ -65,7 +96,7 @@ nav {
   font-size: 60px;
 }
 
-.imgprin {
+.imgprin, .cris img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -483,7 +514,7 @@ h3 {
     font-size: 25px;
     margin-left: 2rem;
   }
-  .imgprin {
+  .imgprin, .cris img {
     height: 40vh;
     width: 90vw;
     padding: 2rem 0rem;
