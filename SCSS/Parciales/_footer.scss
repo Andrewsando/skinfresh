@@ -11,12 +11,12 @@
 
 .foot__form {
     font-family: Arial, Helvetica, sans-serif;
-    background: #ffedd2;
+    background: none;
     margin-left: 0;
-    color: black;
+    color: white;
     text-align: center;
-    font-size: 18px;
-    width: 40%;
+    font-size: 22px;
+    width: 50%;
     padding: 1rem;
 }
 
@@ -24,6 +24,11 @@
     margin-left: 5rem;
     margin-right: 5rem;
     margin-top: 0rem;
+}
+
+.mb-2 h2 {
+   margin: 3rem;
+   font-size: 3rem;
 }
 
 .Boton_submit {
@@ -37,9 +42,9 @@
 .foot__end {
     margin-top: 4rem;
     text-align: center;
-    min-width: 50vw;
+    min-width: 100vw;
     font-size: 18px;
-    height: fit-content;
+    height: 12rem;
     margin-left: 0;
 }
 

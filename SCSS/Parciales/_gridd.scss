@@ -15,27 +15,50 @@ body {
         'footer';
     margin: 0;
 }
+
 body header {
     grid-area: header;
 }
+
 /* Tienda */
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 4rem 2em;
     gap: 30px 10px;
-}
 
-.grid-container img {
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 30px;
-    text-align: center;
-    gap: 10px 10px;
-    width: 25vw;
-    height: 25vw;
-    margin: auto;
-    object-fit: cover;
-    border-radius: 5%;
+    .grid-container-item:hover {
+        img {
+            filter: brightness(50%);
+        }
+        p {
+            display: block;
+        }
+    }
+
+    .grid-container-item {
+        text-align: center;
+
+        p {
+            display: none;
+            margin-bottom: -20%;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            position: relative;
+            top: -20%;
+        }
+
+        img {
+            background-color: rgba(255, 255, 255, 0.8);
+            gap: 10px 10px;
+            width: 25vw;
+            height: 25vw;
+            margin: auto;
+            object-fit: cover;
+            border-radius: 5%;
+        }
+    }
 }
 
 .compra {
