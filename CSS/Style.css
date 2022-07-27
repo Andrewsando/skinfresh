@@ -56,6 +56,59 @@ body header {
   font-size: 50px;
 }
 
+.tituloCombos {
+  margin-top: 20px;
+  text-align: center;
+  color: #3c3f39;
+  font-size: 4rem;
+}
+
+.subtitulosCombos {
+  margin-top: 3rem;
+  margin-left: 1rem;
+  color: #475839;
+}
+
+.combos {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.botonCompras {
+  display: block;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #239995;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.imagenesCombos {
+  display: inline-block;
+  height: 20rem;
+  width: 20rem;
+  padding: 5px;
+  border-radius: 100%;
+  margin-top: 3rem;
+  margin-left: 4rem;
+}
+
+#itemsNumber {
+  position: absolute;
+  top: -15%;
+  right: 0%;
+  font-size: large;
+  background-color: chocolate;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+
 .boton-whatsapp {
   background-color: #1de272;
 }
@@ -220,6 +273,7 @@ h3 {
 
 .all {
   background-color: #ffffff;
+  text-align: center;
 }
 
 body {
@@ -384,6 +438,20 @@ h3 {
   padding: 0.5rem 1rem;
   bottom: 0;
   right: 80px;
+  border-radius: 100%;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.boton__cart {
+  color: azure;
+  position: fixed;
+  display: block;
+  object-fit: cover;
+  font-family: helvetica;
+  padding: 0.5rem 1rem;
+  bottom: 0;
+  right: 150px;
   border-radius: 100%;
   text-decoration: none;
   font-size: 40px;

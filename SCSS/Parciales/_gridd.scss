@@ -40,6 +40,7 @@ body header {
     .grid-container-item {
         text-align: center;
 
+
         p {
             display: none;
             margin-bottom: -20%;
@@ -58,6 +59,7 @@ body header {
             object-fit: cover;
             border-radius: 5%;
         }
+
     }
 }
 
@@ -67,4 +69,58 @@ body header {
     font-family: 'Source Sans Pro', sans-serif;
     color: #738b8a;
     font-size: 50px;
+}
+
+.tituloCombos{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(60, 63, 57);
+    font-size: 4rem;
+}
+
+.subtitulosCombos{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    color: rgb(71, 88, 57);
+}
+
+.combos{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+
+.botonCompras{
+    display:block;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #239995;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.imagenesCombos{
+    display: inline-block;
+    height: 20rem;
+    width: 20rem;
+    padding: 5px;
+    border-radius: 100%;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+#itemsNumber{
+    position: absolute;
+    top: -15%;
+    right: 0%;
+    font-size: large;
+    background-color: chocolate;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-weight: 700;
 }
