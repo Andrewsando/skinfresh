@@ -151,8 +151,8 @@ botonTres.innerText = "Comprar";
 combosPiel.appendChild(botonTres);
 botonTres.classList.add("botonCompras");
 
-botonTres.addEventListener("click",  ()=> guardar(pieles.grasa.productos));
-
+let {productos, nombre} = pieles.grasa
+botonTres.addEventListener("click",  ()=> guardar(productos));
 let carrito = JSON.parse(localStorage.getItem("carrito") || "[]")
 let itemsNumber = document.getElementById("itemsNumber");
 itemsNumber.innerText=carrito.length || 0

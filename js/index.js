@@ -11,13 +11,14 @@ let carritoLleno = () => {
   let divUno = document.getElementById("respuestaUno");
 
   carrito.forEach((producto) => {
+    const {nombre, precio} = producto
     const divHUno = document.createElement("div");
     const parrafoUno = document.createElement("p");
-    parrafoUno.innerText = `${producto.nombre}, ${producto.precio}`;
+    parrafoUno.innerText =`${nombre},${precio}`
     divHUno.appendChild(parrafoUno);
     divUno.appendChild(divHUno);
   });
-
+  
   let total = carrito.reduce((ant,producto) => ant + producto.valor,0);  
   const parrafoTotal = document.createElement("b");
   parrafoTotal.innerText = "El valor total es USD$" + total
@@ -33,7 +34,5 @@ let carritoLleno = () => {
   });
 };
 
-if (carrito.length == 0){
-  carritoVacio()
-}
-else{carritoLleno()}
+
+carrito.length == 0 ? carritoVacio(): carritoLleno()
