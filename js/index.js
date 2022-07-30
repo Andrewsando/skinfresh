@@ -31,6 +31,18 @@ let carritoLleno = () => {
     divDos.classList.remove("ocultar");
     boton.classList.add("ocultar")
     localStorage.clear()
+    Swal.fire({
+      title: 'Tu pedido fue cargado con éxito',
+      width: 600,
+      padding: '3em',
+      color: '#007535',
+      background: '#fff url(/images/trees.png)',
+      backdrop: `
+        rgba(0,0,123,0.4)
+        left top
+        no-repeat
+      `
+    })
   });
 };
 

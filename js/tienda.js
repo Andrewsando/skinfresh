@@ -1,3 +1,4 @@
+
 let pieles = {
   seca: {
     productos: [
@@ -83,6 +84,14 @@ function guardar (prods) {
 
     let itemsNumber = document.getElementById("itemsNumber");
     itemsNumber.innerText=carrito.length
+
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'Tus productos se han agregado con satistacción',
+      showConfirmButton: false,
+      timer: 1500
+    })
 }
 
 let botonUno = document.createElement("button");
